@@ -2,7 +2,6 @@
 
 A tool for parsing and visualizing raw application state logs. Transforms large, unstructured JSON logs into a clean, structured, human-readable format — making it practical to diagnose complex issues that would otherwise require manually reading thousands of lines of raw JSON.
 
----
 
 ## The Problem
 
@@ -10,7 +9,6 @@ When users report complex wallet or transaction issues, they can provide applica
 
 Reading them manually is slow, error-prone, and requires knowing exactly what to look for. State Log Explorer ingests the raw log and surfaces the data that actually matters for the investigation.
 
----
 
 ## Features
 
@@ -21,7 +19,6 @@ Reading them manually is slow, error-prone, and requires knowing exactly what to
 - Removes noise — hides redundant, empty, or irrelevant fields by default
 - Significantly reduces time spent on complex multi-factor investigations
 
----
 
 ## Use Cases
 
@@ -30,14 +27,12 @@ Reading them manually is slow, error-prone, and requires knowing exactly what to
 - Investigating wallet state corruption
 - Reproducing and documenting bugs with full state context
 
----
 
 ## Stack
 
 - **JavaScript** — log parsing and transformation logic
 - **HTML / CSS** — frontend interface
 
----
 
 ## Notes
 
